@@ -1,0 +1,7 @@
+Tables:
+     Tables are used to represent the data in rows and columns. Eg: crickbuzz, screener, school/college time tables
+ Horizontal lines of information is called row
+ Vertical lines of information is called column
+tables are created by 'table' tag
+each table have rows, which are created by 'tr' tag
+each row contains either heading or data , which are created by 'th' or 'td' tags

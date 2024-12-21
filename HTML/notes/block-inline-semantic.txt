@@ -1,0 +1,46 @@
+An element is nothing but content with open and closed tags.
+<h1>heading</h1>  -- h1 element
+Elements are two types:
+ i. block element: block element will not allow any other element beside .
+ blocks element also have height and width
+ Eg: h1 to h6,p,div etc..,
+ ii. in-line element: inline element will allow other elements beside. 
+ inline elements also not have height and width
+ Eg: a,img,span
+
+ div and span are container elements, they are used to wrap certain elements as a group
+
+ div is a general block container element
+ span is a genral inline container element
+
+ class and id's:
+ we can specify a class name or id name to any element to identify  the element
+ class names can be multiple and multiple elements can have same class name
+ id names will be always unique or singular
+
+ <element class="classname" id="idname"></element>
+
+ semantic elements: 
+    sematic elements are introduced to make meaningful HTML which is easily understand by search engines. This practice is good for better SEO(Search Engine Optimation). semantic elements will not change any UI
+    Most used semanti elements are:
+    header,main,footer, nav, aside, section, article,
+    thead,tbody,tfoot,address,figure,picture etc..,
+
+media:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

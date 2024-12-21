@@ -1,0 +1,21 @@
+Lists: Lists are used to list out certain items either ordered or unordered.
+   eg: grocery list,expenditure list,books list, students list,todo lists,results,contact list
+some lists have order and some don't.
+In HTML, lists are classified as 3 types
+  i. ordered list : ordered lists are used to list out certain items in an order
+      HTML uses 'ol' tag for ordered lists
+      Inside ol, each list item denoted by 'li' tag
+    <ol>
+       <li></li>
+    </ol>
+  we can mention any type in 1(numbers-default), A,B,i(roman-lowercase),I(roman uppercase) using 'type'
+  we can even start at any point using numberical attribute 'start'
+  one list inside another list is called 'nestedLists'
+ ii. unordered list: unordered lists are to lists out items in which order is not necessry.
+unordered lists uses 'ul' tag and each list item is 'li'
+Type of the unordered list can be done similary as ordered but not recommanded
+iii. Definition list: These lists are used to define certain statements or events, changelog,timline etc..,
+They uses 'dl' tag
+Each item will have 2 properties
+dt- definition term
+dd - definition data
