@@ -27,6 +27,34 @@ Elements are two types:
     thead,tbody,tfoot,address,figure,picture etc..,
 
 media:
+ audio:
+ audio's are used to keep audio track files into webpage. it uses audio tag and for source it uses source tag.
+ we can use flags like autoplay,controls to make audio plays automatically and contains controls
+
+ video:
+ video's are used to show the media to user. To keep video into webpage, we can use video and for source, it uses source tag
+
+ Iframe: Iframe is used to embedany 3rd party media into your website
+ <iframe src=""></iframe>
+
+ Figure: Figure is used to display images with its captions.
+ <figure>
+   <img src="" alt=""/>
+   <figcaption>caption</figcaption>
+ </figure>
+
+emojis or symbols:
+if you are using VS code, use windows+.
+or you can use symbol codes(they starts with &)
+
+picture:
+picture is used to add responsive images to web page(means different images for different devices)
+it works with source tag containing media queries
+<picture>
+  <source media="">
+  <source media="">
+  <img />
+</picture>
 
 
 
